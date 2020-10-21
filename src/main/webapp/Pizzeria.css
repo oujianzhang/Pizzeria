@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2020, 9:10:59 AM
+    Author     : oujia
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Verdant, Arial, sans-sarif;
+    height: 100%;
+}
+
+#top-of-page {
+    height: 288px;
+    background-color: #ffc954;
+    color: white;
+    border-bottom-color: green;
+}
+
+#main-body {
+    background-color: blanchedalmond;
+}
+
+img {
+    width: 180px;
+    height: 155px;
+}
+
+.order-page {
+    align-content: center
+}
+
+.order-box {
+    width: 50%;
+    font-size: 35px;
+    display: block
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
